@@ -1,0 +1,77 @@
+-------------------
+CSE247 Robot tester starts testing avl on 2020-04-18 16:41:58 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-s20-students-lab11-sayali7242: avl as of 2020-04-11 00:01
+========
+Now in: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab11-sayali7242
+Your branch is up to date with 'origin/master'.
+HEAD is now at 300a00f AVL tree submission
+No local changes to save
+
+Already up to date.
+Going back in time to: 2020-04-11 00:01
+At hash 300a00f325403b14c06ec8bc64205ce29ae3543c
+
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+copytest:
+     [echo] would copy from /mnt/c/Users/coles/git/cse247/cse247-s20-tas-labs-source/ key sayali7242 testfilesource test/TestSmall package avl repo ./GradingRepos/repos/cse247-s20-students-lab11-sayali7242
+     [copy] Copying 1 file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab11-sayali7242/labs/avl/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling avl/tree/AVLTree
+    [mkdir] Created dir: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab11-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling avl/nodes/AVLTreeNode
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling avl/test/TestSmall
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab11-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test test.TestSmall
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+test:
+    [junit] Running avl.test.TestSmall
+    [junit] Testsuite: avl.test.TestSmall
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+    [junit] 
+    [junit] Testcase: testSmallInsert took 0.069 sec
+    [junit] Testcase: testSmallRemove took 0.002 sec
+    [junit] Testcase: testSmallInsertDescending took 0.018 sec
+    [junit] Testcase: testEmptyTree took 0 sec
+    [junit] Testcase: testInsertSmallRandom took 0.004 sec
+    [junit] Testcase: testTinyInsertRebalance took 0 sec
+    [junit] Testcase: testSmallRemoveRebalance took 0.001 sec
+    [junit] Testcase: testSmallInsertRebalance took 0.001 sec
+    [junit] Testcase: testSmallInsertAscending took 0.003 sec
+    [junit] Testcase: testRemove took 0.001 sec
+    [junit] Testcase: testInsertDuplicates took 0.006 sec
+    [junit] Testcase: testTinyInsert took 0 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing avl on 2020-04-18 16:42:05 -0500
+-------------------

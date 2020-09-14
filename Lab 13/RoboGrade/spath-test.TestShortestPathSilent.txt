@@ -1,0 +1,64 @@
+-------------------
+CSE247 Robot tester starts testing spath on 2020-04-27 14:22:13 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-s20-students-lab13-sayali7242: spath as of  2020-04-25 00:01
+========
+Now in: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab13-sayali7242
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at eda38b4 Initial commit
+No local changes to save
+
+Updating eda38b4..195cce8
+Fast-forward
+ labs/spath/ShortestPaths.java | 322 ++++++++++++++++++++++--------------------
+ 1 file changed, 171 insertions(+), 151 deletions(-)
+Going back in time to:  2020-04-25 00:01
+At hash 195cce851eab9cde17b408a3f68e116c7e1c91a7
+
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+copytest:
+     [echo] would copy from /mnt/c/Users/coles/git/cse247/cse247-s20-tas-labs-source/ key sayali7242 testfilesource test/TestShortestPathSilent package spath repo ./GradingRepos/repos/cse247-s20-students-lab13-sayali7242
+     [copy] Copying 1 file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab13-sayali7242/labs/spath/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling spath/ShortestPaths
+    [mkdir] Created dir: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab13-sayali7242/bin
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab13-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling spath/test/TestShortestPathSilent
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/cse247-s20-students-lab13-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestShortestPathSilent
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+test:
+    [junit] Running spath.test.TestShortestPathSilent
+    [junit] Testsuite: spath.test.TestShortestPathSilent
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.728 sec
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.728 sec
+    [junit] 
+    [junit] Testcase: test took 2.711 sec
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing spath on 2020-04-27 14:22:22 -0500
+-------------------

@@ -1,0 +1,395 @@
+-------------------
+CSE247 Robot tester starts testing heaps on 2020-03-03 11:33:46 -0600
+
+========
+Testing in ./GradingRepos/repos/lab3-sayali7242: heaps as of 2020-02-15 00:01
+========
+Now in: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242
+Your branch is up to date with 'origin/master'.
+HEAD is now at dd490cf Lab 3 Submission
+No local changes to save
+
+Updating dd490cf..92135b4
+Fast-forward
+ RoboGrade/heaps-test.TestInsert.txt | 391 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 391 insertions(+)
+ create mode 100644 RoboGrade/heaps-test.TestInsert.txt
+Going back in time to: 2020-02-15 00:01
+At hash 1cec8151e1534bda0a4fbbaaa4d6253484fd446c
+
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+copytest:
+     [echo] would copy from /mnt/c/Users/coles/git/cse247/cse247-s20-tas-labs-source/ key sayali7242 testfilesource test/TestInsert package heaps repo ./GradingRepos/repos/lab3-sayali7242
+     [copy] Copying 1 file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/labs/heaps/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling heaps/MinHeap
+    [mkdir] Created dir: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/bin
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling heaps/test/TestInsert
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestInsert
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+test:
+    [junit] Running heaps.test.TestInsert
+    [junit] Testsuite: heaps.test.TestInsert
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at heaps.validate.MinHeapValidator.checkForGaps(MinHeapValidator.java:113)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:30)
+    [junit] 	at heaps.test.TestInsert.testInsert(TestInsert.java:39)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at heaps.validate.MinHeapValidator.checkForGaps(MinHeapValidator.java:113)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:30)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:54)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] ===== Failure report for testInsert(heaps.test.TestInsert) ========
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] Tree before the problem occurred:
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] Tree that triggered this problem:
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit]  null
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] ===== End Failure report for testInsert(heaps.test.TestInsert) ========
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+    [junit] Tree before the problem occurred:
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.101 sec
+    [junit] Output:
+    [junit] ===== Failure report for testInsert(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree before the problem occurred:
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] ===== End Failure report for testInsert(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree before the problem occurred:
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Error: 
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at heaps.validate.MinHeapValidator.checkForGaps(MinHeapValidator.java:113)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:30)
+    [junit] 	at heaps.test.TestInsert.testInsert(TestInsert.java:39)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at heaps.validate.MinHeapValidator.checkForGaps(MinHeapValidator.java:113)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:30)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:54)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+    [junit] 
+    [junit] Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.101 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] ===== Failure report for testInsert(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree before the problem occurred:
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] ===== End Failure report for testInsert(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree before the problem occurred:
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at heaps.validate.MinHeapValidator.checkForGaps(MinHeapValidator.java:113)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:30)
+    [junit] 	at heaps.test.TestInsert.testInsert(TestInsert.java:39)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] 	at heaps.validate.MinHeapValidator.checkForGaps(MinHeapValidator.java:113)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:30)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:54)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testEmptyHeap took 0.025 sec
+    [junit] Testcase: testInsert took 0.05 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree before the problem occurred:
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:43)
+    [junit] 	at heaps.test.TestInsert.testInsert(TestInsert.java:39)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+    [junit] Testcase: testLocUpdatedDecrease took 0.002 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree before the problem occurred:
+    [junit] 
+    [junit] What went wrong: I found a null entry within the currently occupied portion of the heap, at index 1
+    [junit] Tree that triggered this problem:
+    [junit]  null
+    [junit] 
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:43)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:54)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+
+BUILD FAILED
+/mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml:31: Test heaps.test.TestInsert failed
+
+Total time: 0 seconds
+========
+Testing in ./GradingRepos/repos/lab3-sayali7242: heaps as of 2020-02-22 00:01
+========
+Now in: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242
+Your branch is up to date with 'origin/master'.
+HEAD is now at 92135b4 robograde
+No local changes to save
+
+Already up to date.
+Going back in time to: 2020-02-22 00:01
+At hash dd490cffbb9dff2109f8ee849705a3309603f8dc
+
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+copytest:
+     [echo] would copy from /mnt/c/Users/coles/git/cse247/cse247-s20-tas-labs-source/ key sayali7242 testfilesource test/TestInsert package heaps repo ./GradingRepos/repos/lab3-sayali7242
+     [copy] Copying 1 file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/labs/heaps/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling heaps/MinHeap
+    [mkdir] Created dir: /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/bin
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+compile:
+     [echo] Compiling heaps/test/TestInsert
+    [javac] Compiling 1 source file to /mnt/c/Users/coles/git/cse247/cse247-s20-support/GradingRepos/repos/lab3-sayali7242/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestInsert
+Buildfile: /mnt/c/Users/coles/git/cse247/cse247-s20-support/build.xml
+
+test:
+    [junit] Running heaps.test.TestInsert
+    [junit] Testsuite: heaps.test.TestInsert
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+    [junit] 
+    [junit] Testcase: testEmptyHeap took 0.026 sec
+    [junit] Testcase: testInsert took 0.068 sec
+    [junit] Testcase: testLocUpdatedDecrease took 0.008 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing heaps on 2020-03-03 11:34:10 -0600
+-------------------
